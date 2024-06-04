@@ -93,5 +93,42 @@ Se crearon dos test en el componente UserProfile
 
 4. Verificaciones:Se verifica que localStorage.removeItem se haya llamado con la clave "jwt" para simular la eliminación del token. Se verifica que mockNavigate se haya llamado con la ruta "/login", lo que indica que se intentó redirigir al usuario a la pantalla de inicio de sesión.
 ```
+# 📱Descripción del proyecto (estructura y uso del proyecto Movil)📱
+El proyecto consta de un registro de usuarios, login, la pantalla de Home, pantalla de cursos y actividades, pantalla de notificaciones, pantalla de usuario y pantalla para editar los datos del usuario.
+# Prototipos de la vista y cómo utilizarlas (tipo manual)
+Consta de 
+### Login
+``` 
+Es basicamente donde se llena el campo de  email y password para ingresar a la aplicacion.
+```
+### SignUp
+```
+Donde se registra el usuario
+```
+### UserProfile 
+```
+Se muestran los datos del usuario ademas que se agrega el boton para para editar el perfil el cual nos redirige a la pantalla de editar y un boton para cerrar sesion, asi como regresar a la screen de Home.
+```
+### CoursesScreen
+```
+Se visualizan los cursos, aun no tiene la funcion de crear curso ni de redigirir a screen de CreateCourses.
+```
+### Actividades
+``` 
+Se visualizan las actividades, aun no tiene la funcion de crear actividad ni de redigirir a screen de CreateActivity.
+```
+### HomeScreen
+```
+Es la screen Home donde se ven los cursos y actividades disponibles.
+```
+
+### EditProfile 
+```
+Se muestran los datos del usuario ademas que se agrega la funcion para editarlos o cancelar.
+```
+### Notificaciones
+```
+Se visualizan las notificaciones, de momento no existe tal atributo en el backend asi que solamente es algo visual por parte del front.
+```
 # URL de despliegue en Vercel.
 De momento no pude realizar el despliegue.
