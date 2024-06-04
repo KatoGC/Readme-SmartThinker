@@ -5,7 +5,7 @@ Este readme incluye lo siguiente
 - [Introduccion al proyecto](#introduccion-al-proyecto)
 - [Instrucciones de instalación y ejecución.](#instrucciones-de-instalación-y-ejecución)
 - [Descripción del proyecto (estructura y uso del proyecto Web)](#descripción-del-proyecto-estructura-y-uso-del-proyecto-web)
-- [Descripcion del proyecto (estructura y uso del proyecto Movil)](#descripcion-del-proyecto-estructura-y-uso-del-proyecto-movil)
+- [Descripción del proyecto (estructura y uso del proyecto Movil)](#descripción-del-proyecto-estructura-y-uso-del-proyecto-movil)
 - [Prototipos de la vista y cómo utilizarlas (tipo manual)](#prototipos-de-la-vista-y-cómo-utilizarlas-tipo-manual)
 - [Descripción de las pruebas y cómo ejecutarlas.](#prototipos-de-la-vista-y-cómo-utilizarlas-tipo-manual)
 - [URL de despliegue en Vercel.](#url-de-despliegue-en-vercel)
