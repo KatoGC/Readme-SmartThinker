@@ -12,7 +12,7 @@ Este readme incluye lo siguiente
 
 # Introduccion al proyecto
 
-Mi proyecto el cual principalmente es movil consta de dos partes, la parte de mi Backend que se encuentra en el repositorio [SmartThinker-Backendo](https://github.com/KatoGC/SmartThinkerBackendo.git?authuser=1) el cual esta desarrollo en [Strapi](https://strapi.io/) y la parte del Frontend que se encuentra el repositorio [SmartThinkerWeb](https://github.com/KatoGC/SmartThinkerWeb.git?authuser=1). 🤖
+Mi proyecto el cual principalmente es movil consta de dos partes, la parte de mi Backend que se encuentra en el repositorio [SmartThinker-Backendo](https://github.com/KatoGC/SmartThinkerBackendo.git?authuser=1) el cual esta desarrollo en [Strapi](https://strapi.io/) y la parte del Frontend que se encuentra el repositorio [SmartThinkerWeb](https://github.com/KatoGC/SmartThinkerWeb.git?authuser=1) asi como la parte Movil en el repositorio [SmartThinkerApp](https://github.com/KatoGC/SmartThinkerApp). 🤖
 
 # Instrucciones de instalación y ejecución.
 
@@ -22,11 +22,19 @@ Asegurarse de tener instalado Node.js
 
 - [Node.js](https://nodejs.org/en)
 
+Para la parte movil tener instalado Android Studio
+
+- [Android Studio](https://developer.android.com/studio)
+
 ### Clonar el repositorio
 De la aplicacion Web:
 
 ```sh
    git clone https://github.com/KatoGC/SmartThinkerWeb.git?authuser=1
+```
+De la aplicacion Molvi 
+```sh
+   git clone https://github.com/KatoGC/SmartThinkerApp
 ```
  y Backend en la máquina local:
 ```sh
@@ -43,10 +51,17 @@ Backend con [Strapi](https://strapi.io/) comando que permite la modificacion de 
     npm run develop
 ```
 
-Frontend con [Vite](https://vitejs.dev/guide) 
+Frontend Web con [Vite](https://vitejs.dev/guide) 
 ```sh
     npm run dev
 ```
+
+Frontend Movil con [React Native](https://reactnative.dev/) E inciializar nuestro Android Studio con su respectivo emulador
+``` sh
+   npm start
+```
+
+
 # 📕Descripción del proyecto (estructura y uso del proyecto WEB)📕
 El proyecto consta de un registro de usuarios, login, la pantalla de usuario, vista de cursos y creacion de estos.
 # Prototipos de la vista y cómo utilizarlas (tipo manual)
